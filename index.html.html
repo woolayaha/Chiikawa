@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>咒文試煉：霍格華茲開學囉</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
+  <body>
+    <h1>🧙‍♂️ 霍格華茲開學囉！</h1>
+    <py-script>
+while True:
+    age = int(input("今年幾歲了啊"))
+    if age < 12:
+        print("毛都還沒長齊就想來學魔法？！")
+        break
+    test = input("是否已完成入門魔法測驗(yes/no)")
+    if test != "yes":
+        print("本學院不招收麻瓜學員")
+        break
+    wond = int(input("說！你帶了幾根魔杖"))
+    if wond < 1:
+        print("你的通知單有沒有拿給爸爸媽媽啊")
+        break
+    print("「歡迎加入魔法學院！」")
+    break
+    </py-script>
+  </body>
+</html>
